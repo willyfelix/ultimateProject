@@ -1,12 +1,7 @@
+
 programa {
     
 	inteiro listaDeProdutos[] = { 7, 10, 20, 50 }
-	
-// 	Produto
-// 	    - codigo
-// 	    - nome
-// 	    - quantidade
-
 	
 	funcao inicio() {
 		inteiro opcao, codigoDoProduto, quantidade, saida, cadastro, exclusao, produto
@@ -17,11 +12,11 @@ programa {
 
 		escolha (opcao) {
 			caso 1:
-    			escreva("Insira o código do produto que deseja dar entrada: ")
+    			escreva("Insira o cï¿½digo do produto que deseja dar entrada: ")
     			leia(codigoDoProduto)
     			logico existe = verificarSeCodigoDoProdutoExiste(codigoDoProduto)
     			se (existe) {
-        			escreva("Qual é a quantidade do produto? ")
+        			escreva("Qual ï¿½ a quantidade do produto? ")
         			leia(quantidade)
         			escreva("Produto selecionado: ", codigo, " Quantidade: ", volume)
         			listaDeProdutos()
@@ -31,12 +26,12 @@ programa {
 	}
 	
 	funcao menu() {
-	    escreva("Olá, seja Bem Vindo ao SCdE\n")
-		escreva("Escolha uma opção: \n")
+	    escreva("Olï¿½, seja Bem Vindo ao SCdE\n")
+		escreva("Escolha uma opï¿½ï¿½o: \n")
 		escreva("1) Entrada de Produtos \n")
-		escreva("2) Saída de Produtos \n")
+		escreva("2) Saï¿½da de Produtos \n")
 		escreva("3) Cadastro de Novo Produto \n")
-		escreva("4) Exclusão de Produto \n")
+		escreva("4) Exclusï¿½o de Produto \n")
 		escreva("5) Sair \n")
 	}
 	
