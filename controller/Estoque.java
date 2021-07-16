@@ -40,15 +40,31 @@ public class Estoque {
     }
 
     public void excluir(String nomeDoProduto) {
-        
+        Produto produto = encontraProduto(nomeDoProduto);
+        produtos.remove(produto);
     }
 
     public void adicionar(String nomeDoProduto, int quantidade) {
+        Produto produto = encontraProduto(nomeDoProduto);
+        produto.quantidade += quantidade;
 
+        int indice = produtos.indexOf(produto);
+        produtos.set(indice, produto);
     }
 
     public void remover(String nomeDoProduto, int quantidade) {
+        Produto produto = encontraProduto(nomeDoProduto);
+        produto.quantidade -= quantidade;
+        if (produto.quantidade < 0) {
+            produto.quantidade = 0;
+        }
 
+        int indice = produtos.indexOf(produto);
+        produtos.set(indice, produto);
+    }
+
+    public List<Produto> pegarProdutos() {
+        return produtos;
     }
 
 }
