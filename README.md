@@ -1,5 +1,14 @@
-FLUXO DO PROGRAMA
+## Requisitos
 
+- Desenvolver aplicações desktop com layouts amigáveis e capazes de gerar relatórios. Através da
+linguagem escolhida e trabalhada durante o módulo.
+- Integrar o Design Centrado no Usuário ao processo de desenvolvimento de Software.
+- Aplicar as competências e habilidades socioemocionais, trabalhar a gestão de conflitos, analisar as principais características e perfil do empreendedor seu comportamento e personalidade.
+- Aplicar visão de negócio, ações e atitudes empreendedoras.
+
+
+## Fluxo do Programa
+```sh
 -> Digite aqui o produto que você deseja gerenciar:
 :: nome do produto
 
@@ -23,3 +32,4 @@ else
                 32
             -> Existe 6 unidades desse produto no estoque.
             -> volta pra tela inicial
+```
