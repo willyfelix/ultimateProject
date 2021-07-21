@@ -9,9 +9,12 @@ linguagem escolhida e trabalhada durante o módulo.
 
 ## Fluxo do Programa
 ```sh
--> Digite aqui o produto que você deseja gerenciar:
-:: nome do produto
 
+1) Listar produtos no estoque
+2) Gerenciar um produto especifico:
+    2.1. Digitar nome do produto
+    2.2. Verificar se produto existe
+    
 if ( produto não existir )
     -> Esse produto não existe no estoque
     -> Deseja cadastrar?
