@@ -1,10 +1,10 @@
 ## Requisitos
 
-- Desenvolver aplicações desktop com layouts amigáveis e capazes de gerar relatórios. Através da
+[x] Desenvolver aplicações desktop com layouts amigáveis e capazes de gerar relatórios. Através da
 linguagem escolhida e trabalhada durante o módulo.
-- Integrar o Design Centrado no Usuário ao processo de desenvolvimento de Software.
-- Aplicar as competências e habilidades socioemocionais, trabalhar a gestão de conflitos, analisar as principais características e perfil do empreendedor seu comportamento e personalidade.
-- Aplicar visão de negócio, ações e atitudes empreendedoras.
+[x] Integrar o Design Centrado no Usuário ao processo de desenvolvimento de Software.
+[] Aplicar as competências e habilidades socioemocionais, trabalhar a gestão de conflitos, analisar as principais características e perfil do empreendedor seu comportamento e personalidade.
+[] Aplicar visão de negócio, ações e atitudes empreendedoras.
 
 
 ## Fluxo do Programa
