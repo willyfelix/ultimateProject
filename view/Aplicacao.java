@@ -40,6 +40,7 @@ public class Aplicacao {
                     System.out.println("\n\n\t:: Até logo!!\n\n");
                     break;
                 default:
+                    System.out.println("\n\t:: Opção inválida\n\n");
                     break;
             }
         }
@@ -71,35 +72,38 @@ public class Aplicacao {
         if (produtoExiste == true) {
 
             Produto produto = estoque.encontraProduto(nomeDoProduto);
-            System.out.println(
-                    "\n\t:: Existem " + produto.quantidade + " unidades de " + produto.nome + " no estoque!\n\n");
+            System.out.println("\n\t:: Existem " + produto.quantidade + " unidades de " + produto.nome + " no estoque!\n\n");
+            
             int opcao = 0;
-
-            while (opcao < 1 || opcao > 3) {
+            while (opcao != 1 && opcao != 2 && opcao != 3) {
                 System.out.println("(1) Deseja aumentar o estoque deste produto?");
                 System.out.println("(2) Deseja diminuir o estoque deste produto?");
                 System.out.print("(3) Voltar ao menu principal\n\n> ");
                 opcao = input.nextInt();
                 input.nextLine();
-                int quantidade = 0;
+
+                int quantidade;
                 switch (opcao) {
                     case 1:
                         System.out.print("> Digite a quantidade que deseja aumentar: ");
                         quantidade = input.nextInt();
-                        input.nextLine(); // GAMBIARRA
+                        input.nextLine();
+
                         estoque.adicionar(nomeDoProduto, quantidade);
                         System.out.println("\n\t:: " + quantidade + " unidades adicionadas");
                         break;
                     case 2:
                         System.out.print("> Digite a quantidade que deseja diminuir: ");
                         quantidade = input.nextInt();
-                        input.nextLine(); // GAMBIARRA
+                        input.nextLine();
+
                         estoque.remover(nomeDoProduto, quantidade);
                         System.out.println("\n\t:: " + quantidade + " unidades removidas");
                         break;
                     case 3:
                         break;
                     default:
+                        System.out.println("\n\t:: Opção inválida\n");
                         break;
                 }
             }
@@ -109,7 +113,8 @@ public class Aplicacao {
             System.out.println("\nEsse produto não existe no estoque! Deseja cadastrar?");
             System.out.print("(0) Não (1) Sim\n\n> ");
             int opcao = input.nextInt();
-            input.nextLine(); // GAMBIARRA
+            input.nextLine();
+
             if (opcao == 1) {
                 estoque.cadastrar(nomeDoProduto);
                 System.out.println("\nProduto cadastrado com sucesso!\n\n");

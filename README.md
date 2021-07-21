@@ -1,10 +1,15 @@
+
+## Arquitetura
+
+Está sendo utilizada a arquitetura MVC para o projeto. Apesar do projeto ser simples estruturamos dessa forma para manter a organização visando a evolução do projeto.
+
 ## Requisitos
 
-[x] Desenvolver aplicações desktop com layouts amigáveis e capazes de gerar relatórios. Através da
+- Desenvolver aplicações desktop com layouts amigáveis e capazes de gerar relatórios. Através da
 linguagem escolhida e trabalhada durante o módulo.
-[x] Integrar o Design Centrado no Usuário ao processo de desenvolvimento de Software.
-[] Aplicar as competências e habilidades socioemocionais, trabalhar a gestão de conflitos, analisar as principais características e perfil do empreendedor seu comportamento e personalidade.
-[] Aplicar visão de negócio, ações e atitudes empreendedoras.
+- Integrar o Design Centrado no Usuário ao processo de desenvolvimento de Software.
+- Aplicar as competências e habilidades socioemocionais, trabalhar a gestão de conflitos, analisar as principais características e perfil do empreendedor seu comportamento e personalidade.
+- Aplicar visão de negócio, ações e atitudes empreendedoras.
 
 
 ## Fluxo do Programa

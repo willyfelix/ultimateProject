@@ -48,8 +48,8 @@ public class Estoque {
         Produto produto = encontraProduto(nomeDoProduto);
         produto.quantidade += quantidade;
 
-        int indice = produtos.indexOf(produto);
-        produtos.set(indice, produto);
+        int posicao = produtos.indexOf(produto);
+        produtos.set(posicao, produto);
     }
 
     public void remover(String nomeDoProduto, int quantidade) {
